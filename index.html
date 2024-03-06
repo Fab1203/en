@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Encriptador</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+        <img id="logo-alura" src="./assets/a alura.svg" alt="Logo da Alura">
+    </header>
+    <section class="conteudo-principal">
+        <div class="alerta">
+            <img src="./assets/Frame 1.svg" alt="Ícone de alerta">
+            <div class="mensagem">
+                <label for="messageInput">Mensagem:</label>
+                <input type="text" id="messageInput" placeholder="Digite sua mensagem">
+            </div>
+        </div>
+        <img src="./assets/High quality products 1 1.svg" alt="Imagem de boneco">
+        <div class="container-botoes">
+            <button id="encryptBtn" class="button">Criptografar</button>
+            <button id="decryptBtn" class="button">Descriptografar</button>
+            <button id="copyBtn" class="button">Copiar Resultado</button>   
+        </div>
+        <div class="result">
+            <label for="resultado"></label>
+            <input type="text" id="resultado" placeholder="Resultado">
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="icones">
+            <a href="https://www.instagram.com/fabio9429"><ion-icon name="logo-instagram" class="button1"></ion-icon></a>
+            <a href="https://github.com/Fab1203"><ion-icon name="logo-github" class="button1"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube" class="button1"></ion-icon></a>   
+        </div>
+        <div>
+            <p class="sobremim">F@bão Todos os Direitos Reservados-2024</p>
+        </div>
+    </footer> 
+    <script src="encriptador.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ </main>
+</body>
+</html>
